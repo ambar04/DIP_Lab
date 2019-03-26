@@ -1,6 +1,6 @@
 clc; clear; close all;
 
-img = rgb2gray(imread('ambar.jpg'));
+img = rgb2gray(imread('lena.jpg'));
 subplot(3,4,2);
 imshow(img);
 title('Gray Scale of Original Image');
